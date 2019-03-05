@@ -1,0 +1,135 @@
+body{
+  color: #40515E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto; /* circle rule: top right bottom left */
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #11999E;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+  color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px 0 100px 0;
+}
+
+.bottom-container {
+  margin-top: 25px;
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto auto 50px auto;
+  text-align: left;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.software {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.microsoft {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.profile {
+  padding-top: 25px;
+}
+
+.contact-if {
+  padding-bottom: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.footer-link-credit {
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  color: #EAF6F6;
+  padding: 0;
+}
+
+.footer-text {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
